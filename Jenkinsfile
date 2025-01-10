@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test docker') {
             steps {
-                sudo docker run hello-world
+                docker run hello-world
             }
         }
     }
